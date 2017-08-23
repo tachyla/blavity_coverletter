@@ -1,0 +1,28 @@
+.main-nav > ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+}
+
+.main-nav {
+    position: fixed;
+    /* z-index: 10; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black; 
+    display: flex;
+}
+
+.main-nav > ul{
+width: 100%;
+padding-top: 30px;
+padding-bottom: 15px;
+}
+
+img {
+    width: 190px;
+    height: 50px;
+}
