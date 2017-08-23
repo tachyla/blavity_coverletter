@@ -41,7 +41,7 @@ padding-top: 30px;
 padding-bottom: 15px;
 }
 
-ul > li {
+.main-nav ul > li {
     margin-right: 65px;
 }
 
@@ -49,6 +49,44 @@ ul > li {
     display: inline;
 }
 
+.facebook-blue {
+    background-color: #3b5998;
+}
+
+.linkedin-blue {
+    background-color: #55acee;
+}
+
+.github-red {
+    background-color: #aa2529;
+}
+
+.email-gold {
+    background-color: #cfbc58;
+}
+
+.social-links > ul {
+    display: flex;
+    list-style: none;
+    width: 70%;
+}
+
+.social_btn > li {
+    display: block;
+    border: none;
+    height: auto;
+    line-height: 40px;
+    /* text-align: center; */
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.col-3 {
+    width: 25%;
+}
 
 
-
+i {
+    color: #fff;
+    padding-left: 45%;
+}
