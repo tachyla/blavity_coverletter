@@ -1,3 +1,13 @@
+a,
+.descriptions {
+    font-family: 'Heebo,sans-serif','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica,sans-serif';
+}
+
+
+.headline {
+    font-family: 'Montserrat';
+}
+
 img {
     width: 190px;
     height: auto;
@@ -6,6 +16,7 @@ img {
 .article-body {
     margin-top: 200px;
 }
+
 .main-nav > ul {
     list-style: none;
     display: flex;
@@ -30,13 +41,14 @@ padding-top: 30px;
 padding-bottom: 15px;
 }
 
-a,
-.descriptions {
-    font-family: 'Heebo,sans-serif','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica,sans-serif';
+ul > li {
+    margin-right: 65px;
+}
+
+.communication-headline {
+    display: inline;
 }
 
 
-.headline {
-    font-family: 'Montserrat';
-}
+
 
